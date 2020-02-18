@@ -1,2 +1,2 @@
 # ActiveDirectory.Toolbox
-Collection of functions for performing common sysadmin tasks
+Functions for Active Directory Management for performing Sysadmin tasks
