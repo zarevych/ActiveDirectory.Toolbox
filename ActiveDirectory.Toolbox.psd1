@@ -12,7 +12,7 @@
 RootModule = 'ActiveDirectory.Toolbox.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.1912.2'
+ModuleVersion = '0.2001.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -30,7 +30,7 @@ CompanyName = 'Unknown'
 Copyright = '(c) Andriy Zarevych. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Collection of functions for performing common sysadmin tasks'
+Description = 'Functions for Active Directory Management for performing Sysadmin tasks'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -69,7 +69,8 @@ RequiredModules = @('ActiveDirectory')
 # NestedModules = @()
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
-FunctionsToExport = '*'
+FunctionsToExport = 'Get-ADComputerBitLockerInfo', 'Get-ADComputerLAPSInfo', 
+                    'Get-ADUserMemberOf'                   
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = '*'
@@ -101,7 +102,7 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/zarevych/ActiveDirectory.Toolbox'
 
         # A URL to an icon representing this module.
         # IconUri = ''
