@@ -12,7 +12,7 @@
 RootModule = 'ActiveDirectory.Toolbox.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.2001.2'
+ModuleVersion = '0.2002.2'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
@@ -30,7 +30,7 @@ CompanyName = 'Unknown'
 Copyright = '(c) Andriy Zarevych. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Functions for Active Directory Management for performing Sysadmin tasks'
+Description = 'Functions for Active Directory Management'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -70,7 +70,8 @@ RequiredModules = @('ActiveDirectory')
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = 'Get-ADComputerBitLockerInfo', 'Get-ADComputerLAPSInfo', 
-                    'Get-ADUserMemberOf'                   
+                    'Get-ADUserMemberOf',
+                    'Get-LockedADUsers','Unlock-ADUsers'
 
 # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
 CmdletsToExport = '*'
