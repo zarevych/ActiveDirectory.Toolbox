@@ -29,3 +29,13 @@ Get a list of groups for Active Directory user
 ```bash
 Get-ADUserMemberOf [-User] <Object>
 ```
+### Get-LockedADUsers
+Get locked Active Directory user accounts
+```bash
+Get-LockedADUsers
+```
+### Unlock-ADUsers
+Unlock all Active Directory user accounts
+```bash
+Unlock-ADUsers
+```
