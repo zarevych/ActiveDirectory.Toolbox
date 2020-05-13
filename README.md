@@ -35,7 +35,7 @@ Get locked Active Directory user accounts
 Get-LockedADUsers
 ```
 ### Unlock-ADUsers
-Unlock all Active Directory user accounts
+Unlock all Active Directory locked accounts
 ```bash
 Unlock-ADUsers
 ```
