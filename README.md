@@ -24,10 +24,18 @@ Get Computer LAPS Passwords information from Active Directory
 ```bash
 Get-ADComputerBitLockerInfo [[-ComputerName] <string[]>]
 ```
+### Get-ADGroupMemberCount
+```bash
+```
 ### Get-ADUserMemberOf
 Get a list of groups for Active Directory user
 ```bash
 Get-ADUserMemberOf [-User] <Object>
+```
+### Get-ADUserPrimaryGroup
+Get AD user primary group
+```bash
+Get-ADUserPrimaryGroup [-User] <Object>
 ```
 ### Get-LockedADUsers
 Get locked Active Directory user accounts
